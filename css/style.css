@@ -29,6 +29,7 @@
 }
 main{
     max-width: 1400px;
+    margin: 0 auto;
 }
 /* Menu navegacion*/
 .blow{
@@ -124,7 +125,7 @@ main{
 }
 .about__skills{
     margin-top: 10px;
-width: 600px;
+/* width: 600px; */
 height:130px ;
 /* background-color: rgb(31, 106, 9); */
 display: flex;
@@ -222,9 +223,35 @@ gap: 5px;
 }
 @media (max-width:992px) {
     /* … */
+    
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .front-page__box2{
+        text-align: center;
+        max-width: 400px;
+    }
+    .project{
+        height: auto;
+        width: auto;
+    }
+    .project__list{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        justify-content: center;
+        
+    }
+    .footer{
+        margin-top: 5px;
+        width: auto;
+    }
 }
 @media (max-width:768px) {
     /* … */
+   
 }
 @media (max-width:576px) {
     .block-nav{
